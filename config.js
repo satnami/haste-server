@@ -33,10 +33,8 @@
   },
 
   "storage": {
-    "type": "memcached",
-    "host": "127.0.0.1",
-    "port": 11211,
-    "expire": 2592000
+    "type": "mongodb",
+    "connectionUrl": "mongodb://localhost:27017/database"
   },
 
   "documents": {
